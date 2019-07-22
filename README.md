@@ -19,3 +19,5 @@ Minimal VSCode extension that suggests code completions using a Python script po
 - `extension.js`: VSCode extension main logic.
 - `code_assist.py`: Python code assistant using OpenAI.
 - `package.json`: Extension config and commands.
+Contribution: 2019-07-22 20:00
+
