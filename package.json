@@ -1,0 +1,16 @@
+{
+  "name": "simple-python-code-assist",
+  "displayName": "Simple Python Code Assist",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.60.0" },
+  "activationEvents": ["onCommand:extension.suggestCode"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.suggestCode",
+        "title": "Suggest Code"
+      }
+    ]
+  }
+}
