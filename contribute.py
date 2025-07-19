@@ -35,7 +35,7 @@ def main(def_args=sys.argv[1:]):
 
     # Hardcoded date range: Jan 1, 2017 to Dec 31, 2020
     start_date = datetime(2017, 1, 1, 20, 0) 
-    end_date = datetime(2019, 12, 15, 20, 0)
+    end_date = datetime(2017, 12, 15, 20, 0)
     total_days = (end_date - start_date).days + 1
 
     for day in (start_date + timedelta(n) for n in range(total_days)):
